@@ -31,7 +31,7 @@ function App() {
   return (
     
     <main className={styles.characterEditor}>
-
+            <div className={styles.topContainer}></div>
       
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
@@ -81,7 +81,7 @@ function App() {
         </div>
 
       </MaxWidthWrapper>
-      <div className={styles.topContainer}></div>
+
       <div className={styles.characterWrapper}>
         <Character
           body={body}
